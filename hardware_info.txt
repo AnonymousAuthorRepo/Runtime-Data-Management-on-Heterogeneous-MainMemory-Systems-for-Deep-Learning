@@ -1,0 +1,462 @@
+SUDO_GID=1003
+MAIL=/var/mail/USER
+USER=USER
+LD_LIBRARY_PATH=/usr/lib64
+HOME=/home/jren
+LC_TERMINAL_VERSION=3.3.7
+SUDO_UID=1002
+LOGNAME=USER
+PKG_CONFIG_PATH=/usr/lib64/pkgconfig
+TERM=xterm-256color
+USERNAME=USER
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+SUDO_COMMAND=/bin/sh collect_environment.sh
+SHELL=/bin/bash
+SUDO_USER=jren
+LC_TERMINAL=iTerm2
+PWD=/home/jren/Author-Kit
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.4 LTS
+Release:	18.04
+Codename:	bionic
+Linux sdp 5.6.0-rc6+ #1 SMP Tue Mar 17 19:05:14 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              96
+On-line CPU(s) list: 0-95
+Thread(s) per core:  2
+Core(s) per socket:  24
+Socket(s):           2
+NUMA node(s):        2
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               85
+Model name:          Intel(R) Xeon(R) Gold 6252 CPU @ 2.10GHz
+Stepping:            6
+CPU MHz:             1000.093
+CPU max MHz:         3700.0000
+CPU min MHz:         1000.0000
+BogoMIPS:            4200.00
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            1024K
+L3 cache:            36608K
+NUMA node0 CPU(s):   0-23,48-71
+NUMA node1 CPU(s):   24-47,72-95
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single ssbd mba ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke avx512_vnni md_clear flush_l1d arch_capabilities
+MemTotal:       1559219032 kB
+MemFree:        383208828 kB
+MemAvailable:   380717404 kB
+Buffers:          300972 kB
+Cached:          2832680 kB
+SwapCached:            0 kB
+Active:         1170028992 kB
+Inactive:        1719952 kB
+Active(anon):   1168617708 kB
+Inactive(anon):      156 kB
+Active(file):    1411284 kB
+Inactive(file):  1719796 kB
+Unevictable:        8196 kB
+Mlocked:            8196 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               116 kB
+Writeback:             0 kB
+AnonPages:      1168625048 kB
+Mapped:            83936 kB
+Shmem:              2552 kB
+KReclaimable:     379876 kB
+Slab:             824056 kB
+SReclaimable:     379876 kB
+SUnreclaim:       444180 kB
+KernelStack:       16384 kB
+PageTables:      2632476 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    779609516 kB
+Committed_AS:   1346364296 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      444660 kB
+VmallocChunk:          0 kB
+Percpu:            67200 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      402824 kB
+DirectMap2M:    17111040 kB
+DirectMap1G:    1568669696 kB
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0         1 loop 
+loop1    7:1    0  93.8M  1 loop /snap/core/8935
+loop2    7:2    0  93.9M  1 loop /snap/core/9066
+loop3    7:3    0         0 loop 
+loop4    7:4    0         0 loop 
+loop5    7:5    0         0 loop 
+loop6    7:6    0         0 loop 
+loop7    7:7    0         0 loop 
+sda      8:0    0 447.1G  0 disk 
+├─sda1   8:1    0   512M  0 part /boot/efi
+└─sda2   8:2    0 446.6G  0 part /
+sdb      8:16   1     7G  0 disk 
+└─sdb1   8:17   1     7G  0 part 
+H/W path                 Device     Class          Description
+==============================================================
+                                    system         S2600WFD (SKU Number)
+/0                                  bus            S2600WFD
+/0/1c                               memory         1536KiB L1 cache
+/0/0                                memory         24MiB L2 cache
+/0/6                                memory         35MiB L3 cache
+/0/1f                               processor      Intel(R) Xeon(R) Gold 6252 CPU @ 2.10GHz
+/0/20                               memory         1536KiB L1 cache
+/0/21                               memory         24MiB L2 cache
+/0/22                               memory         35MiB L3 cache
+/0/23                               processor      Intel(R) Xeon(R) Gold 6252 CPU @ 2.10GHz
+/0/24                               memory         1708GiB System Memory
+/0/24/0                             memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/1                             memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/24/2                             memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/3                             memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/24/4                             memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/5                             memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/24/6                             memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/7                             memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/24/8                             memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/9                             memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/24/a                             memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/b                             memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/24/c                             memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/d                             memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/24/e                             memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/f                             memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/24/10                            memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/11                            memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/24/12                            memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/13                            memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/24/14                            memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/15                            memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/24/16                            memory         16GiB DIMM DDR4 Synchronous Cache DRAM 2666 MHz (0.4 ns)
+/0/24/17                            memory         126GiB DIMM Synchronous Non-volatile 2666 MHz (0.4 ns)
+/0/40                               memory         64KiB BIOS
+/0/100                              bridge         Sky Lake-E DMI3 Registers
+/0/100/4                 /dev/fb0   generic        Sky Lake-E CBDMA Registers
+/0/100/4.1                          generic        Sky Lake-E CBDMA Registers
+/0/100/4.2                          generic        Sky Lake-E CBDMA Registers
+/0/100/4.3                          generic        Sky Lake-E CBDMA Registers
+/0/100/4.4                          generic        Sky Lake-E CBDMA Registers
+/0/100/4.5                          generic        Sky Lake-E CBDMA Registers
+/0/100/4.6                          generic        Sky Lake-E CBDMA Registers
+/0/100/4.7                          generic        Sky Lake-E CBDMA Registers
+/0/100/5                            generic        Sky Lake-E MM/Vt-d Configuration Registers
+/0/100/5.2                          generic        Intel Corporation
+/0/100/5.4                          generic        Intel Corporation
+/0/100/8                            generic        Sky Lake-E Ubox Registers
+/0/100/8.1                          generic        Sky Lake-E Ubox Registers
+/0/100/8.2                          generic        Sky Lake-E Ubox Registers
+/0/100/11                           generic        C620 Series Chipset Family MROM 0
+/0/100/11.1                         generic        C620 Series Chipset Family MROM 1
+/0/100/11.5                         storage        C610/X99 series chipset sSATA Controller [RAID mode]
+/0/100/14                           bus            C620 Series Chipset Family USB 3.0 xHCI Controller
+/0/100/14/0              usb1       bus            xHCI Host Controller
+/0/100/14/0/2                       bus            USB hub
+/0/100/14/0/2/1                     input          Keyboard
+/0/100/14/1              usb2       bus            xHCI Host Controller
+/0/100/14/1/4            scsi0      storage        Mass Storage Device
+/0/100/14/1/4/0.0.0      /dev/sdb   disk           7558MB Transcend 8GB
+/0/100/14/1/4/0.0.0/0    /dev/sdb   disk           7558MB 
+/0/100/14/1/4/0.0.0/0/1  /dev/sdb1  volume         7207MiB Windows NTFS volume
+/0/100/14.2                         generic        C620 Series Chipset Family Thermal Subsystem
+/0/100/16                           communication  C620 Series Chipset Family MEI Controller #1
+/0/100/16.1                         communication  C620 Series Chipset Family MEI Controller #2
+/0/100/16.4                         communication  C620 Series Chipset Family MEI Controller #3
+/0/100/17                           storage        C600/X79 series chipset SATA RAID Controller
+/0/100/1c                           bridge         C620 Series Chipset Family PCI Express Root Port #4
+/0/100/1c/0                         bridge         AST1150 PCI-to-PCI Bridge
+/0/100/1c/0/0                       display        ASPEED Graphics Family
+/0/100/1f                           bridge         C624 Series Chipset LPC/eSPI Controller
+/0/100/1f.2                         memory         Memory controller
+/0/100/1f.4                         bus            C620 Series Chipset Family SMBus
+/0/100/1f.5                         bus            C620 Series Chipset Family SPI Controller
+/0/7                                generic        Intel Corporation
+/0/9                                generic        Sky Lake-E RAS Configuration Registers
+/0/a                                generic        Intel Corporation
+/0/b                                generic        Sky Lake-E CHA Registers
+/0/c                                generic        Sky Lake-E CHA Registers
+/0/d                                generic        Sky Lake-E CHA Registers
+/0/e                                generic        Sky Lake-E CHA Registers
+/0/f                                generic        Sky Lake-E CHA Registers
+/0/10                               generic        Sky Lake-E CHA Registers
+/0/11                               generic        Sky Lake-E CHA Registers
+/0/12                               generic        Sky Lake-E CHA Registers
+/0/13                               generic        Sky Lake-E CHA Registers
+/0/14                               generic        Sky Lake-E CHA Registers
+/0/15                               generic        Sky Lake-E CHA Registers
+/0/16                               generic        Sky Lake-E CHA Registers
+/0/17                               generic        Sky Lake-E CHA Registers
+/0/18                               generic        Sky Lake-E CHA Registers
+/0/19                               generic        Sky Lake-E CHA Registers
+/0/1a                               generic        Sky Lake-E CHA Registers
+/0/1b                               generic        Sky Lake-E CHA Registers
+/0/25                               generic        Sky Lake-E CHA Registers
+/0/26                               generic        Sky Lake-E CHA Registers
+/0/27                               generic        Sky Lake-E CHA Registers
+/0/28                               generic        Sky Lake-E CHA Registers
+/0/29                               generic        Sky Lake-E CHA Registers
+/0/2a                               generic        Sky Lake-E CHA Registers
+/0/2b                               generic        Sky Lake-E CHA Registers
+/0/2c                               generic        Sky Lake-E CHA Registers
+/0/2d                               generic        Sky Lake-E CHA Registers
+/0/2e                               generic        Sky Lake-E CHA Registers
+/0/2f                               generic        Sky Lake-E CHA Registers
+/0/30                               generic        Sky Lake-E CHA Registers
+/0/31                               generic        Sky Lake-E CHA Registers
+/0/32                               generic        Sky Lake-E CHA Registers
+/0/33                               generic        Sky Lake-E CHA Registers
+/0/34                               generic        Sky Lake-E CHA Registers
+/0/35                               generic        Sky Lake-E CHA Registers
+/0/36                               generic        Sky Lake-E CHA Registers
+/0/37                               generic        Sky Lake-E CHA Registers
+/0/38                               generic        Sky Lake-E CHA Registers
+/0/39                               generic        Sky Lake-E CHA Registers
+/0/3a                               generic        Sky Lake-E CHA Registers
+/0/3b                               generic        Sky Lake-E CHA Registers
+/0/3c                               generic        Sky Lake-E CHA Registers
+/0/3d                               generic        Sky Lake-E CHA Registers
+/0/3e                               generic        Sky Lake-E CHA Registers
+/0/3f                               generic        Sky Lake-E CHA Registers
+/0/41                               generic        Sky Lake-E CHA Registers
+/0/42                               generic        Sky Lake-E CHA Registers
+/0/43                               generic        Sky Lake-E CHA Registers
+/0/44                               generic        Sky Lake-E CHA Registers
+/0/45                               generic        Sky Lake-E CHA Registers
+/0/46                               generic        Sky Lake-E CHA Registers
+/0/47                               generic        Sky Lake-E CHA Registers
+/0/48                               generic        Sky Lake-E CHA Registers
+/0/49                               generic        Sky Lake-E CHA Registers
+/0/4a                               generic        Sky Lake-E CHA Registers
+/0/4b                               generic        Sky Lake-E CHA Registers
+/0/4c                               generic        Sky Lake-E CHA Registers
+/0/4d                               generic        Sky Lake-E CHA Registers
+/0/4e                               generic        Sky Lake-E CHA Registers
+/0/4f                               generic        Sky Lake-E CHA Registers
+/0/50                               generic        Sky Lake-E CHA Registers
+/0/51                               generic        Sky Lake-E PCU Registers
+/0/52                               generic        Sky Lake-E PCU Registers
+/0/53                               generic        Sky Lake-E PCU Registers
+/0/54                               generic        Sky Lake-E PCU Registers
+/0/55                               generic        Sky Lake-E PCU Registers
+/0/56                               generic        Sky Lake-E PCU Registers
+/0/57                               generic        Sky Lake-E PCU Registers
+/0/101                              bridge         Sky Lake-E PCI Express Root Port A
+/0/101/0                            bridge         Intel Corporation
+/0/101/0/3                          bridge         Intel Corporation
+/0/101/0/3/0             eno1       network        Ethernet Connection X722 for 10GBASE-T
+/0/101/0/3/0.1           eno2       network        Ethernet Connection X722 for 10GBASE-T
+/0/58                               generic        Intel Corporation
+/0/59                               generic        Sky Lake-E RAS Configuration Registers
+/0/5a                               generic        Intel Corporation
+/0/5b                               generic        Intel Corporation
+/0/5c                               generic        Intel Corporation
+/0/5d                               generic        Intel Corporation
+/0/5e                               generic        Intel Corporation
+/0/5f                               generic        Intel Corporation
+/0/60                               generic        Intel Corporation
+/0/61                               generic        Intel Corporation
+/0/62                               generic        Intel Corporation
+/0/63                               generic        Intel Corporation
+/0/64                               generic        Intel Corporation
+/0/65                               generic        Intel Corporation
+/0/66                               generic        Intel Corporation
+/0/67                               generic        Intel Corporation
+/0/68                               generic        Intel Corporation
+/0/69                               generic        Intel Corporation
+/0/6a                               generic        Intel Corporation
+/0/6b                               generic        Intel Corporation
+/0/6c                               generic        Intel Corporation
+/0/6d                               generic        Intel Corporation
+/0/6e                               generic        Intel Corporation
+/0/6f                               generic        Intel Corporation
+/0/70                               generic        Intel Corporation
+/0/71                               generic        Intel Corporation
+/0/72                               generic        Intel Corporation
+/0/73                               generic        Intel Corporation
+/0/74                               generic        Intel Corporation
+/0/2                                bridge         Sky Lake-E PCI Express Root Port C
+/0/3                                bridge         Sky Lake-E PCI Express Root Port D
+/0/75                               generic        Intel Corporation
+/0/76                               generic        Sky Lake-E RAS Configuration Registers
+/0/77                               generic        Intel Corporation
+/0/78                               generic        Intel Corporation
+/0/79                               generic        Intel Corporation
+/0/7a                               generic        Intel Corporation
+/0/7b                               generic        Intel Corporation
+/0/7c                               generic        Intel Corporation
+/0/7d                               generic        Intel Corporation
+/0/7e                               generic        Sky Lake-E M3KTI Registers
+/0/7f                               generic        Sky Lake-E M3KTI Registers
+/0/80                               generic        Sky Lake-E M3KTI Registers
+/0/81                               generic        Sky Lake-E M3KTI Registers
+/0/82                               generic        Sky Lake-E M3KTI Registers
+/0/83                               generic        Sky Lake-E M2PCI Registers
+/0/84                               generic        Intel Corporation
+/0/85                               generic        Sky Lake-E M2PCI Registers
+/0/86                               generic        Intel Corporation
+/0/87                               generic        Sky Lake-E M2PCI Registers
+/0/88                               generic        Intel Corporation
+/0/89                               generic        Sky Lake-E M2PCI Registers
+/0/8a                               generic        Intel Corporation
+/0/4                                generic        Sky Lake-E CBDMA Registers
+/0/4.1                              generic        Sky Lake-E CBDMA Registers
+/0/4.2                              generic        Sky Lake-E CBDMA Registers
+/0/4.3                              generic        Sky Lake-E CBDMA Registers
+/0/4.4                              generic        Sky Lake-E CBDMA Registers
+/0/4.5                              generic        Sky Lake-E CBDMA Registers
+/0/4.6                              generic        Sky Lake-E CBDMA Registers
+/0/4.7                              generic        Sky Lake-E CBDMA Registers
+/0/8b                               generic        Sky Lake-E MM/Vt-d Configuration Registers
+/0/8c                               generic        Intel Corporation
+/0/8d                               generic        Intel Corporation
+/0/8e                               generic        Sky Lake-E Ubox Registers
+/0/8f                               generic        Sky Lake-E Ubox Registers
+/0/90                               generic        Sky Lake-E Ubox Registers
+/0/91                               generic        Intel Corporation
+/0/92                               generic        Sky Lake-E RAS Configuration Registers
+/0/93                               generic        Intel Corporation
+/0/94                               generic        Sky Lake-E CHA Registers
+/0/8.1                              generic        Sky Lake-E CHA Registers
+/0/8.2                              generic        Sky Lake-E CHA Registers
+/0/95                               generic        Sky Lake-E CHA Registers
+/0/96                               generic        Sky Lake-E CHA Registers
+/0/97                               generic        Sky Lake-E CHA Registers
+/0/98                               generic        Sky Lake-E CHA Registers
+/0/99                               generic        Sky Lake-E CHA Registers
+/0/9a                               generic        Sky Lake-E CHA Registers
+/0/9b                               generic        Sky Lake-E CHA Registers
+/0/9c                               generic        Sky Lake-E CHA Registers
+/0/9d                               generic        Sky Lake-E CHA Registers
+/0/9e                               generic        Sky Lake-E CHA Registers
+/0/9f                               generic        Sky Lake-E CHA Registers
+/0/a0                               generic        Sky Lake-E CHA Registers
+/0/a1                               generic        Sky Lake-E CHA Registers
+/0/a2                               generic        Sky Lake-E CHA Registers
+/0/a3                               generic        Sky Lake-E CHA Registers
+/0/a4                               generic        Sky Lake-E CHA Registers
+/0/a5                               generic        Sky Lake-E CHA Registers
+/0/a6                               generic        Sky Lake-E CHA Registers
+/0/a7                               generic        Sky Lake-E CHA Registers
+/0/a8                               generic        Sky Lake-E CHA Registers
+/0/a9                               generic        Sky Lake-E CHA Registers
+/0/aa                               generic        Sky Lake-E CHA Registers
+/0/ab                               generic        Sky Lake-E CHA Registers
+/0/ac                               generic        Sky Lake-E CHA Registers
+/0/ad                               generic        Sky Lake-E CHA Registers
+/0/ae                               generic        Sky Lake-E CHA Registers
+/0/af                               generic        Sky Lake-E CHA Registers
+/0/b0                               generic        Sky Lake-E CHA Registers
+/0/b1                               generic        Sky Lake-E CHA Registers
+/0/b2                               generic        Sky Lake-E CHA Registers
+/0/b3                               generic        Sky Lake-E CHA Registers
+/0/b4                               generic        Sky Lake-E CHA Registers
+/0/b5                               generic        Sky Lake-E CHA Registers
+/0/b6                               generic        Sky Lake-E CHA Registers
+/0/b7                               generic        Sky Lake-E CHA Registers
+/0/b8                               generic        Sky Lake-E CHA Registers
+/0/b9                               generic        Sky Lake-E CHA Registers
+/0/ba                               generic        Sky Lake-E CHA Registers
+/0/bb                               generic        Sky Lake-E CHA Registers
+/0/bc                               generic        Sky Lake-E CHA Registers
+/0/bd                               generic        Sky Lake-E CHA Registers
+/0/be                               generic        Sky Lake-E CHA Registers
+/0/bf                               generic        Sky Lake-E CHA Registers
+/0/c0                               generic        Sky Lake-E CHA Registers
+/0/c1                               generic        Sky Lake-E CHA Registers
+/0/c2                               generic        Sky Lake-E CHA Registers
+/0/c3                               generic        Sky Lake-E CHA Registers
+/0/c4                               generic        Sky Lake-E CHA Registers
+/0/c5                               generic        Sky Lake-E CHA Registers
+/0/c6                               generic        Sky Lake-E CHA Registers
+/0/c7                               generic        Sky Lake-E CHA Registers
+/0/c8                               generic        Sky Lake-E CHA Registers
+/0/c9                               generic        Sky Lake-E CHA Registers
+/0/1d                               generic        Sky Lake-E CHA Registers
+/0/ca                               generic        Sky Lake-E CHA Registers
+/0/cb                               generic        Sky Lake-E CHA Registers
+/0/cc                               generic        Sky Lake-E CHA Registers
+/0/1e                               generic        Sky Lake-E PCU Registers
+/0/cd                               generic        Sky Lake-E PCU Registers
+/0/ce                               generic        Sky Lake-E PCU Registers
+/0/cf                               generic        Sky Lake-E PCU Registers
+/0/d0                               generic        Sky Lake-E PCU Registers
+/0/d1                               generic        Sky Lake-E PCU Registers
+/0/d2                               generic        Sky Lake-E PCU Registers
+/0/d3                               generic        Intel Corporation
+/0/d4                               generic        Sky Lake-E RAS Configuration Registers
+/0/d5                               generic        Intel Corporation
+/0/8                                generic        Intel Corporation
+/0/d6                               generic        Intel Corporation
+/0/d7                               generic        Intel Corporation
+/0/d8                               generic        Intel Corporation
+/0/d9                               generic        Intel Corporation
+/0/da                               generic        Intel Corporation
+/0/db                               generic        Intel Corporation
+/0/dc                               generic        Intel Corporation
+/0/dd                               generic        Intel Corporation
+/0/de                               generic        Intel Corporation
+/0/df                               generic        Intel Corporation
+/0/e0                               generic        Intel Corporation
+/0/e1                               generic        Intel Corporation
+/0/e2                               generic        Intel Corporation
+/0/e3                               generic        Intel Corporation
+/0/e4                               generic        Intel Corporation
+/0/e5                               generic        Intel Corporation
+/0/e6                               generic        Intel Corporation
+/0/e7                               generic        Intel Corporation
+/0/e8                               generic        Intel Corporation
+/0/e9                               generic        Intel Corporation
+/0/ea                               generic        Intel Corporation
+/0/eb                               generic        Intel Corporation
+/0/ec                               generic        Intel Corporation
+/0/ed                               generic        Intel Corporation
+/0/ee                               generic        Intel Corporation
+/0/102                              bridge         Sky Lake-E PCI Express Root Port A
+/0/1                                bridge         Sky Lake-E PCI Express Root Port B
+/0/5                                generic        Intel Corporation
+/0/5.2                              generic        Sky Lake-E RAS Configuration Registers
+/0/5.4                              generic        Intel Corporation
+/0/ef                               generic        Intel Corporation
+/0/f0                               generic        Intel Corporation
+/0/f1                               generic        Intel Corporation
+/0/f2                               generic        Intel Corporation
+/0/f3                               generic        Intel Corporation
+/0/f4                               generic        Intel Corporation
+/0/f5                               generic        Sky Lake-E M3KTI Registers
+/0/f6                               generic        Sky Lake-E M3KTI Registers
+/0/f7                               generic        Sky Lake-E M3KTI Registers
+/0/f8                               generic        Sky Lake-E M3KTI Registers
+/0/f9                               generic        Sky Lake-E M3KTI Registers
+/0/fa                               generic        Sky Lake-E M2PCI Registers
+/0/fb                               generic        Intel Corporation
+/0/fc                               generic        Sky Lake-E M2PCI Registers
+/0/fd                               generic        Intel Corporation
+/0/fe                               generic        Sky Lake-E M2PCI Registers
+/0/ff                               generic        Intel Corporation
+/0/103                              generic        Sky Lake-E M2PCI Registers
+/0/104                              generic        Intel Corporation
+/0/105                   scsi7      storage        
+/0/105/0.0.0             /dev/sda   disk           480GB INTEL SSDSC2BB48
+/0/105/0.0.0/1           /dev/sda1  volume         511MiB Windows FAT volume
+/0/105/0.0.0/2           /dev/sda2  volume         446GiB EXT4 volume
