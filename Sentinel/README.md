@@ -1,4 +1,4 @@
-# TF_girl
+# Sentinel Install
 
 diff command for patch
 ```
